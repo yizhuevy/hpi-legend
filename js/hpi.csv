@@ -1,0 +1,421 @@
+city,date,price
+Columbia,2000Jan ,115.34
+Columbia,2000Apr,116.85
+Columbia,2000Jul,117.89
+Columbia,2000Oct,118.83
+Columbia,2001Jan,120.25
+Columbia,2001Apr,121.57
+Columbia,2001Jul,122.34
+Columbia,2001Oct,123.29
+Columbia,2002Jan ,124.56
+Columbia,2002Apr,125.56
+Columbia,2002Jul,126.71
+Columbia,2002Oct,127.04
+Columbia,2003Jan ,128.23
+Columbia,2003Apr,128.46
+Columbia,2003Jul,129.56
+Columbia,2003Oct,132.56
+Columbia,2004Jan ,132.96
+Columbia,2004Apr,135.21
+Columbia,2004Jul,139.64
+Columbia,2004Oct,140.46
+Columbia,2005Jan ,142.77
+Columbia,2005Apr,145.8
+Columbia,2005Jul,150.4
+Columbia,2005Oct,151.72
+Columbia,2006Jan ,152.46
+Columbia,2006Apr,153.6
+Columbia,2006Jul,154.7
+Columbia,2006Oct,157.02
+Columbia,2007Jan ,155.86
+Columbia,2007Apr,157.89
+Columbia,2007Jul,156.92
+Columbia,2007Oct,156
+Columbia,2008Jan ,157.9
+Columbia,2008Apr,156.76
+Columbia,2008Jul,156.68
+Columbia,2008Oct,154.85
+Columbia,2009Jan ,156.77
+Columbia,2009Apr,156.03
+Columbia,2009Jul,154.26
+Columbia,2009Oct,154.54
+Columbia,2010Jan ,153.82
+Columbia,2010Apr,155.14
+Columbia,2010Jul,155.95
+Columbia,2010Oct,155.82
+Columbia,2011Jan ,152.9
+Columbia,2011Apr,152.29
+Columbia,2011Jul,154.4
+Columbia,2011Oct,155.73
+Columbia,2012Jan ,155.27
+Columbia,2012Apr,155.33
+Columbia,2012Jul,157.04
+Columbia,2012Oct,158.3
+Columbia,2013Jan ,157.05
+Columbia,2013Apr,158.98
+Columbia,2013Jul,158.94
+Columbia,2013Oct,160.47
+Columbia,2014Jan ,158.05
+Columbia,2014Apr,161.07
+Columbia,2014Jul,165.89
+Columbia,2014Oct,164.39
+Jefferson City,2000Jan ,124.21
+Jefferson City,2000Apr,125.19
+Jefferson City,2000Jul,126.51
+Jefferson City,2000Oct,126.96
+Jefferson City,2001Jan,128.62
+Jefferson City,2001Apr,130.53
+Jefferson City,2001Jul,131.06
+Jefferson City,2001Oct,130.64
+Jefferson City,2002Jan ,132.51
+Jefferson City,2002Apr,134.01
+Jefferson City,2002Jul,134.33
+Jefferson City,2002Oct,136.65
+Jefferson City,2003Jan ,137.42
+Jefferson City,2003Apr,136.67
+Jefferson City,2003Jul,138.08
+Jefferson City,2003Oct,139.93
+Jefferson City,2004Jan ,141.79
+Jefferson City,2004Apr,143.59
+Jefferson City,2004Jul,146.55
+Jefferson City,2004Oct,147.71
+Jefferson City,2005Jan ,149.13
+Jefferson City,2005Apr,150.71
+Jefferson City,2005Jul,152.7
+Jefferson City,2005Oct,154.44
+Jefferson City,2006Jan ,156.12
+Jefferson City,2006Apr,156.26
+Jefferson City,2006Jul,157.87
+Jefferson City,2006Oct,158.33
+Jefferson City,2007Jan ,159.16
+Jefferson City,2007Apr,159.72
+Jefferson City,2007Jul,160.93
+Jefferson City,2007Oct,159.41
+Jefferson City,2008Jan ,162.43
+Jefferson City,2008Apr,162.1
+Jefferson City,2008Jul,160.89
+Jefferson City,2008Oct,161.41
+Jefferson City,2009Jan ,162.83
+Jefferson City,2009Apr,163.24
+Jefferson City,2009Jul,162.12
+Jefferson City,2009Oct,161.29
+Jefferson City,2010Jan ,160.95
+Jefferson City,2010Apr,162.73
+Jefferson City,2010Jul,162.84
+Jefferson City,2010Oct,163.36
+Jefferson City,2011Jan ,162.05
+Jefferson City,2011Apr,159.67
+Jefferson City,2011Jul,162.66
+Jefferson City,2011Oct,162.82
+Jefferson City,2012Jan ,162.97
+Jefferson City,2012Apr,163.62
+Jefferson City,2012Jul,165.28
+Jefferson City,2012Oct,166.08
+Jefferson City,2013Jan ,166.6
+Jefferson City,2013Apr,166.35
+Jefferson City,2013Jul,165.66
+Jefferson City,2013Oct,165.18
+Jefferson City,2014Jan ,161.41
+Jefferson City,2014Apr,164.27
+Jefferson City,2014Jul,168.71
+Jefferson City,2014Oct,166.29
+Springfield,2000Jan ,112.76
+Springfield,2000Apr,113.35
+Springfield,2000Jul,114.2
+Springfield,2000Oct,115.69
+Springfield,2001Jan,117.21
+Springfield,2001Apr,118.62
+Springfield,2001Jul,119.6
+Springfield,2001Oct,120.85
+Springfield,2002Jan ,121.35
+Springfield,2002Apr,122.14
+Springfield,2002Jul,123.45
+Springfield,2002Oct,125.55
+Springfield,2003Jan ,125.74
+Springfield,2003Apr,126.14
+Springfield,2003Jul,127.45
+Springfield,2003Oct,129.71
+Springfield,2004Jan ,130.31
+Springfield,2004Apr,131.48
+Springfield,2004Jul,133.62
+Springfield,2004Oct,136.08
+Springfield,2005Jan ,137.91
+Springfield,2005Apr,139.95
+Springfield,2005Jul,143.2
+Springfield,2005Oct,145.8
+Springfield,2006Jan ,147.83
+Springfield,2006Apr,148.98
+Springfield,2006Jul,151.05
+Springfield,2006Oct,152.61
+Springfield,2007Jan ,154.73
+Springfield,2007Apr,154.99
+Springfield,2007Jul,153.96
+Springfield,2007Oct,155.01
+Springfield,2008Jan ,155.55
+Springfield,2008Apr,153.77
+Springfield,2008Jul,150.42
+Springfield,2008Oct,151.32
+Springfield,2009Jan ,153.04
+Springfield,2009Apr,151.01
+Springfield,2009Jul,147.49
+Springfield,2009Oct,146.46
+Springfield,2010Jan ,146.58
+Springfield,2010Apr,145.24
+Springfield,2010Jul,146.47
+Springfield,2010Oct,145.1
+Springfield,2011Jan ,140.31
+Springfield,2011Apr,139.22
+Springfield,2011Jul,140.03
+Springfield,2011Oct,141.76
+Springfield,2012Jan ,141.56
+Springfield,2012Apr,139.91
+Springfield,2012Jul,141.69
+Springfield,2012Oct,142.47
+Springfield,2013Jan ,142.47
+Springfield,2013Apr,143.34
+Springfield,2013Jul,142.38
+Springfield,2013Oct,143.26
+Springfield,2014Jan ,142.97
+Springfield,2014Apr,144.86
+Springfield,2014Jul,146.71
+Springfield,2014Oct,146.69
+Joplin,2000Jan ,119.1
+Joplin,2000Apr,118.74
+Joplin,2000Jul,119.63
+Joplin,2000Oct,121.88
+Joplin,2001Jan,125.39
+Joplin,2001Apr,126.43
+Joplin,2001Jul,128.43
+Joplin,2001Oct,130.77
+Joplin,2002Jan ,130.66
+Joplin,2002Apr,129.66
+Joplin,2002Jul,132.54
+Joplin,2002Oct,135.23
+Joplin,2003Jan ,136.65
+Joplin,2003Apr,136.23
+Joplin,2003Jul,138.4
+Joplin,2003Oct,138.73
+Joplin,2004Jan ,140.62
+Joplin,2004Apr,139.98
+Joplin,2004Jul,143.42
+Joplin,2004Oct,145.6
+Joplin,2005Jan ,146.91
+Joplin,2005Apr,147.19
+Joplin,2005Jul,148.52
+Joplin,2005Oct,152.16
+Joplin,2006Jan ,152.51
+Joplin,2006Apr,152.96
+Joplin,2006Jul,155.18
+Joplin,2006Oct,157.13
+Joplin,2007Jan ,156.29
+Joplin,2007Apr,158.51
+Joplin,2007Jul,156.88
+Joplin,2007Oct,156.89
+Joplin,2008Jan ,160.31
+Joplin,2008Apr,157.28
+Joplin,2008Jul,155.84
+Joplin,2008Oct,155.62
+Joplin,2009Jan ,159.66
+Joplin,2009Apr,157.21
+Joplin,2009Jul,155.35
+Joplin,2009Oct,156.59
+Joplin,2010Jan ,152.26
+Joplin,2010Apr,152.44
+Joplin,2010Jul,154.87
+Joplin,2010Oct,153.41
+Joplin,2011Jan ,152.71
+Joplin,2011Apr,150.71
+Joplin,2011Jul,157.67
+Joplin,2011Oct,159.23
+Joplin,2012Jan ,159.68
+Joplin,2012Apr,156.34
+Joplin,2012Jul,161.8
+Joplin,2012Oct,161.92
+Joplin,2013Jan ,158.19
+Joplin,2013Apr,159.32
+Joplin,2013Jul,158.48
+Joplin,2013Oct,160.68
+Joplin,2014Jan ,160.67
+Joplin,2014Apr,161.69
+Joplin,2014Jul,162.79
+Joplin,2014Oct,160.42
+Fayetteville,2000Jan ,115.12
+Fayetteville,2000Apr,116.28
+Fayetteville,2000Jul,117.38
+Fayetteville,2000Oct,118.85
+Fayetteville,2001Jan,122.3
+Fayetteville,2001Apr,123.2
+Fayetteville,2001Jul,124.42
+Fayetteville,2001Oct,125.79
+Fayetteville,2002Jan ,126.58
+Fayetteville,2002Apr,127.85
+Fayetteville,2002Jul,129.92
+Fayetteville,2002Oct,131.74
+Fayetteville,2003Jan ,133.14
+Fayetteville,2003Apr,134.68
+Fayetteville,2003Jul,136.49
+Fayetteville,2003Oct,139.86
+Fayetteville,2004Jan ,142.92
+Fayetteville,2004Apr,146.97
+Fayetteville,2004Jul,151.14
+Fayetteville,2004Oct,155.28
+Fayetteville,2005Jan ,157.3
+Fayetteville,2005Apr,162.95
+Fayetteville,2005Jul,167.91
+Fayetteville,2005Oct,170.75
+Fayetteville,2006Jan ,174.33
+Fayetteville,2006Apr,175.58
+Fayetteville,2006Jul,177.84
+Fayetteville,2006Oct,179.08
+Fayetteville,2007Jan ,178.94
+Fayetteville,2007Apr,179.09
+Fayetteville,2007Jul,176.39
+Fayetteville,2007Oct,176.33
+Fayetteville,2008Jan ,175.44
+Fayetteville,2008Apr,172.3
+Fayetteville,2008Jul,168.18
+Fayetteville,2008Oct,167.97
+Fayetteville,2009Jan ,168.98
+Fayetteville,2009Apr,163.86
+Fayetteville,2009Jul,156.72
+Fayetteville,2009Oct,156.14
+Fayetteville,2010Jan ,152.99
+Fayetteville,2010Apr,150.67
+Fayetteville,2010Jul,152.77
+Fayetteville,2010Oct,151.04
+Fayetteville,2011Jan ,145.13
+Fayetteville,2011Apr,142.69
+Fayetteville,2011Jul,146.53
+Fayetteville,2011Oct,146.22
+Fayetteville,2012Jan ,144.84
+Fayetteville,2012Apr,144.43
+Fayetteville,2012Jul,147.15
+Fayetteville,2012Oct,148.83
+Fayetteville,2013Jan ,150.25
+Fayetteville,2013Apr,152.37
+Fayetteville,2013Jul,152.63
+Fayetteville,2013Oct,155.02
+Fayetteville,2014Jan ,156.85
+Fayetteville,2014Apr,156.56
+Fayetteville,2014Jul,161.57
+Fayetteville,2014Oct,164.22
+Missouri,2000Jan ,207.69
+Missouri,2000Apr,210.24
+Missouri,2000Jul,213.61
+Missouri,2000Oct,216.22
+Missouri,2001Jan,219.88
+Missouri,2001Apr,223.15
+Missouri,2001Jul,226.46
+Missouri,2001Oct,228.72
+Missouri,2002Jan ,232.44
+Missouri,2002Apr,235.49
+Missouri,2002Jul,238.37
+Missouri,2002Oct,241.32
+Missouri,2003Jan ,243.42
+Missouri,2003Apr,245.15
+Missouri,2003Jul,248.12
+Missouri,2003Oct,253.76
+Missouri,2004Jan ,256.81
+Missouri,2004Apr,260.1
+Missouri,2004Jul,266.14
+Missouri,2004Oct,269.83
+Missouri,2005Jan ,274.33
+Missouri,2005Apr,278.31
+Missouri,2005Jul,283.32
+Missouri,2005Oct,286.43
+Missouri,2006Jan ,289.25
+Missouri,2006Apr,289.75
+Missouri,2006Jul,292.46
+Missouri,2006Oct,295.87
+Missouri,2007Jan ,297.44
+Missouri,2007Apr,297.82
+Missouri,2007Jul,296.21
+Missouri,2007Oct,297.56
+Missouri,2008Jan ,298.02
+Missouri,2008Apr,294.1
+Missouri,2008Jul,289.2
+Missouri,2008Oct,290
+Missouri,2009Jan ,292.35
+Missouri,2009Apr,287.66
+Missouri,2009Jul,281
+Missouri,2009Oct,279.79
+Missouri,2010Jan ,277.54
+Missouri,2010Apr,275.73
+Missouri,2010Jul,278.76
+Missouri,2010Oct,277.01
+Missouri,2011Jan ,270.09
+Missouri,2011Apr,266.16
+Missouri,2011Jul,269.84
+Missouri,2011Oct,271.33
+Missouri,2012Jan ,268.82
+Missouri,2012Apr,266.73
+Missouri,2012Jul,269.37
+Missouri,2012Oct,270.08
+Missouri,2013Jan ,268.64
+Missouri,2013Apr,269.88
+Missouri,2013Jul,270.79
+Missouri,2013Oct,270.23
+Missouri,2014Jan ,271.41
+Missouri,2014Apr,275.73
+Missouri,2014Jul,280.06
+Missouri,2014Oct,281.34
+USA,2000Jan ,228.71
+USA,2000Apr,232.44
+USA,2000Jul,236.65
+USA,2000Oct,240.31
+USA,2001Jan,246.23
+USA,2001Apr,250.35
+USA,2001Jul,254.23
+USA,2001Oct,257.39
+USA,2002Jan ,261.1
+USA,2002Apr,265.52
+USA,2002Jul,270.79
+USA,2002Oct,274.65
+USA,2003Jan ,277.99
+USA,2003Apr,281.37
+USA,2003Jul,285.67
+USA,2003Oct,293.73
+USA,2004Jan ,298.31
+USA,2004Apr,305.56
+USA,2004Jul,317.23
+USA,2004Oct,323.97
+USA,2005Jan ,331.43
+USA,2005Apr,342.01
+USA,2005Jul,352.3
+USA,2005Oct,360.27
+USA,2006Jan ,366.04
+USA,2006Apr,369.81
+USA,2006Jul,372.91
+USA,2006Oct,376.71
+USA,2007Jan ,378.14
+USA,2007Apr,377.91
+USA,2007Jul,373.77
+USA,2007Oct,372.73
+USA,2008Jan ,370.19
+USA,2008Apr,361.09
+USA,2008Jul,349.92
+USA,2008Oct,346.82
+USA,2009Jan ,349.41
+USA,2009Apr,340.13
+USA,2009Jul,331.16
+USA,2009Oct,328.82
+USA,2010Jan ,324.89
+USA,2010Apr,322.05
+USA,2010Jul,325.19
+USA,2010Oct,322.88
+USA,2011Jan ,313.99
+USA,2011Apr,308.71
+USA,2011Jul,311.24
+USA,2011Oct,312.73
+USA,2012Jan ,309.5
+USA,2012Apr,308.45
+USA,2012Jul,312.42
+USA,2012Oct,314.98
+USA,2013Jan ,316.63
+USA,2013Apr,321.78
+USA,2013Jul,327.25
+USA,2013Oct,330.75
+USA,2014Jan ,333.69
+USA,2014Apr,341.17
+USA,2014Jul,346.26
+USA,2014Oct,348.88
