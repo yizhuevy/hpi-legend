@@ -36,7 +36,7 @@ var svg = d3.select(".chart")
 d3.csv("js/hpi.csv", function(error, data) {
   
     data.forEach(function(d) {
-        d.date = parseDate(d.date);
+        d.date = parseDate(d.date.trim());
         d.price = +d.price;
 });
 
