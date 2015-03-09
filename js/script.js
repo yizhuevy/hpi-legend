@@ -99,9 +99,3 @@ d3.csv("js/hpi.csv", function(error, data) {
 });
 
 
-  // //  svg.selectAll("dot")
-  //       .data(data)
-  //   .enter().append("circle")
-  //       .attr("r", 3.5)
-  //       .attr("cx", function(d) { return x(d.date); })
-  //       .attr("cy", function(d) { return y(d.price); });
