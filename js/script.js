@@ -1,7 +1,7 @@
 // Set the dimensions of the canvas / graph
-var margin = {top: 30, right: 20, bottom: 70, left: 50},
+var margin = {top: 90, right: 20, bottom: 70, left: 50},
     width = $(".chart").width() - margin.left - margin.right,
-    height =$(".chart").height() - margin.top - margin.bottom;
+    height =650- margin.top - margin.bottom;
 
 // Parse the date / time
 var parseDate = d3.time.format("%Y%b").parse;
@@ -32,6 +32,23 @@ var svg = d3.select(".chart")
         .attr("transform", 
               "translate(" + margin.left + "," + margin.top + ")");
 
+
+
+
+// //$(".btn").on("click", function() {
+//      // Determine if current line is visible 
+//                 var active   = d.active ? false : true,
+//                 newOpacity = active ? 0 : 1; 
+//                 // Hide or show the elements based on the ID
+//                 d3.select("#tag"+d.key.replace(/\s+/g, ''))
+//                     .transition().duration(100) 
+//                     .style("opacity", newOpacity); 
+//                 // Update whether or not the elements are active
+//                 d.active = active;
+//                 })  
+// })
+
+
 // Get the data
 d3.csv("js/hpi.csv", function(error, data) {
   
@@ -50,6 +67,7 @@ d3.csv("js/hpi.csv", function(error, data) {
         .entries(data);
 
     var color = d3.scale.category10();   // set the colour scale
+   // var background-color=d3.rgb
 
     legendSpace = width/dataNest.length; // spacing for the legend
 
@@ -59,17 +77,28 @@ d3.csv("js/hpi.csv", function(error, data) {
         svg.append("path")
             .attr("class", "line")
             .style("stroke", function() { // Add the colours dynamically
-                return d.color = color(d.key); })
+                return d.color = color(d.key);})
             .attr("id", 'tag'+d.key.replace(/\s+/g, '')) // assign ID
             .attr("d", hpiLine(d.values));
 
         // Add the Legend
         svg.append("text")
             .attr("x", (legendSpace/2)+i*legendSpace)  // space legend
-            .attr("y", height + (margin.bottom/2)+ 5)
-            .attr("class", "legend")    // style the legend
+            .attr("y", (margin.bottom/2) - 80)
+            .attr("class", "legend")
+            // style the legend
             .style("fill", function() { // Add the colours dynamically
-                return d.color = color(d.key); })
+                return d.color = color(d.key); 
+              })
+            .style("background-color", function(){
+                return d.backgroundColor = "gery";
+            })
+
+            function changeBackground(color) {
+   document.legend.style.background = color;
+}
+
+         
             .on("click", function(){
                 // Determine if current line is visible 
                 var active   = d.active ? false : true,
@@ -96,6 +125,6 @@ d3.csv("js/hpi.csv", function(error, data) {
         .attr("class", "y axis")
         .call(yAxis);
 
-});
 
+  });
 

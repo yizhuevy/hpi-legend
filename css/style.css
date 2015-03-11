@@ -2,7 +2,7 @@
 
 
 .chart {
-  height: 500px;
+  height: 700px;
 }
 
 
@@ -23,6 +23,13 @@ path {
 .legend {
     font-size: 14px;
     font-weight: bold;
+    background-color: grey;
+    border: solid;
     text-anchor: middle;
-
+    margin:100px;
 } 
+
+text {
+    border: solid;
+}
+
