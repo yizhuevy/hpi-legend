@@ -12,7 +12,9 @@
     <!-- Latest compiled and minified Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
-
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/uikit.min.js"></script>
 
 
     <link rel="stylesheet" href="css/style.css"/>
@@ -20,7 +22,6 @@
 </head>
 
 <body class="">
-
     <div id="main-wrapper" class="">
         <div id="main-content" class="container">
             <header class="row">
@@ -33,21 +34,36 @@
                     <div class="meta">
                         Published March 8th, 2015
                     </div>
+
+                     <p>
+The HPI is a broad measure of the movement of single-family house prices. The HPI is a weighted, repeat-sales index, meaning that it measures average price changes in repeat sales or refinancings on the same properties. <br>
+
+The HPI serves as a timely, accurate indicator of house price trends at various geographic levels. Because of the breadth of the sample, it provides more information than is available in other house price indexes. It also provides housing economists with an improved analytical tool that is useful for estimating changes in the rates of mortgage defaults, prepayments and housing affordability in specific geographic areas.<br>
+
+Here is data of all-transacition Housing Price Index. Five metropolitan statistic regions are at the lower HPI level compared to the country, which means the housing price is more affordable in these regions. <br>
+You can pick up certain regions to compare by clicking the button. 
+                    </p>
+
                 </div>
             </header>
 
             <section class="row">
-
+            <div>
+            <div  style="margin-left: 70px; margin-top:20px;">
+                      <button id="Columbia" type="button" val="Columbia" class="uk-button uk-button-primary btn btn-Columbia" data-uk-button>Columbia</button>
+                      <button id="Jefferson" type="button" val="Jefferson" class="uk-button uk-button-primary btn btn-Jefferson" data-uk-button>Jefferson</button>
+                      <button id="Springfield" type="button" val="Springfield" class="uk-button uk-button-primary btn btn-Springfield" data-uk-button>Springfield</button>
+                      <button id="Joplin" type="button" val="Joplin" class="uk-button uk-button-primary btn btn-Joplin" data-uk-button>Joplin</button>
+                      <button id="Fayetteville" type="button" val="Fayetteville" class="uk-button uk-button-primary btn btn-Fayetteville" data-uk-button>Fayetteville</button>
+                      <button id="Missouri" type="button" val="Missouri" class="uk-button uk-button-primary btn btn-Missouri" data-uk-button>Missouri</button>
+                      <button id="USA" type="button" val="USA" class="uk-button uk-button-primary btn btn-USA" data-uk-button>USA</button>
+            </div>
+            </div>
                 
             <div class="col-md-12 chart">
                 <div id="chart-container">
                 </div>
-
-            </div>
- 
-        <div class="btn-group" role="group" aria-label="...">
-                      <button type="button" val="Columbia" class="btn btn-default">Columbia</button>
-                    </div>
+</div>      
 
 
 
@@ -63,13 +79,13 @@
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    
+    <script src="js/d3.min.js" ></script>
 
     <!-- Latest compiled and minified Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
-    
+    <script src="js/script1.js"></script>
 
     
 

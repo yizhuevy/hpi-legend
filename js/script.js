@@ -1,8 +1,11 @@
+document.getElementById("Columbia").click();
+
+
 // Set the dimensions of the canvas / graph
 var margin = {top: 90, right: 20, bottom: 70, left: 50},
     width = $(".chart").width() - margin.left - margin.right,
     height =650- margin.top - margin.bottom;
-
+    
 // Parse the date / time
 var parseDate = d3.time.format("%Y%b").parse;
 
@@ -35,8 +38,8 @@ var svg = d3.select(".chart")
 
 
 
-// //$(".btn").on("click", function() {
-//      // Determine if current line is visible 
+ //$(".btn").on("click", function() {
+      // Determine if current line is visible 
 //                 var active   = d.active ? false : true,
 //                 newOpacity = active ? 0 : 1; 
 //                 // Hide or show the elements based on the ID
@@ -99,19 +102,104 @@ d3.csv("js/hpi.csv", function(error, data) {
 }
 
          
-            .on("click", function(){
+            $(".btn-Columbia").on("click", function(){              
                 // Determine if current line is visible 
+                if(d.key == "Columbia"){
                 var active   = d.active ? false : true,
-                newOpacity = active ? 0 : 1; 
+                newOpacity = active ? 1 : 0; 
+                // Hide or show the elements based on the ID
+                d3.select("#tag"+d.key.replace(/\s+/g, ''))
+                    .transition().duration(100) 
+                    .style("opacity", newOpacity); 
+                // Update whether or not the elements are active
+               d.active = active;
+                }
+                });  
+                
+                $(".btn-Jefferson").on("click", function(){
+                // Determine if current line is visible 
+                if(d.key == "Jefferson City"){
+                var active   = d.active ? false : true,
+                newOpacity = active ? 1 : 0; 
                 // Hide or show the elements based on the ID
                 d3.select("#tag"+d.key.replace(/\s+/g, ''))
                     .transition().duration(100) 
                     .style("opacity", newOpacity); 
                 // Update whether or not the elements are active
                 d.active = active;
-                })  
-            .text(d.key); 
+                }
+                });  
+                
+                $(".btn-Springfield").on("click", function(){
+                // Determine if current line is visible 
+                if(d.key == "Springfield"){
+                var active   = d.active ? false : true,
+                newOpacity = active ? 1 : 0; 
+                // Hide or show the elements based on the ID
+                d3.select("#tag"+d.key.replace(/\s+/g, ''))
+                    .transition().duration(100) 
+                    .style("opacity", newOpacity); 
+                // Update whether or not the elements are active
+                d.active = active;
+                }
+                });  
 
+                $(".btn-Joplin").on("click", function(){
+                // Determine if current line is visible 
+                if(d.key == "Joplin"){
+                var active   = d.active ? false : true,
+                newOpacity = active ? 1 : 0; 
+                // Hide or show the elements based on the ID
+                d3.select("#tag"+d.key.replace(/\s+/g, ''))
+                    .transition().duration(100) 
+                    .style("opacity", newOpacity); 
+                // Update whether or not the elements are active
+                d.active = active;
+                }
+                });  
+                
+                $(".btn-Fayetteville").on("click", function(){
+                // Determine if current line is visible 
+                if(d.key == "Fayetteville"){
+                var active   = d.active ? false : true,
+                newOpacity = active ? 1 : 0; 
+                // Hide or show the elements based on the ID
+                d3.select("#tag"+d.key.replace(/\s+/g, ''))
+                    .transition().duration(100) 
+                    .style("opacity", newOpacity); 
+                // Update whether or not the elements are active
+                d.active = active;
+                }
+                });  
+                
+                $(".btn-Missouri").on("click", function(){
+                // Determine if current line is visible 
+                if(d.key == "Missouri"){
+                var active   = d.active ? false : true,
+                newOpacity = active ? 1 : 0; 
+                // Hide or show the elements based on the ID
+                d3.select("#tag"+d.key.replace(/\s+/g, ''))
+                    .transition().duration(100) 
+                    .style("opacity", newOpacity); 
+                // Update whether or not the elements are active
+                d.active = active;
+                }
+                });  
+                
+                $(".btn-USA").on("click", function(){
+                // Determine if current line is visible 
+                if(d.key == "USA"){                 
+                    var active   = d.active ? false : true,
+                    newOpacity = active ? 1 : 0; 
+                    // Hide or show the elements based on the ID
+                    d3.select("#tag"+d.key.replace(/\s+/g, ''))
+                        .transition().duration(100) 
+                        .style("opacity", newOpacity); 
+                    // Update whether or not the elements are active
+                    d.active = active;
+                }
+                });  
+                
     });
 
     // Add the X Axis

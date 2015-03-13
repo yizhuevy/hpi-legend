@@ -20,6 +20,40 @@ path {
     shape-rendering: crispEdges;
 }
 
+.btn
+    {
+        text-decoration: none;
+        color: #ffffff;
+        line-height: 3em;
+        display: inline-block;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: courier new;
+    }
+    
+    .btn-Columbia{
+        background-color: #1f77b4;
+    }
+    .btn-Jefferson{
+        background-color: #ff7f0e;
+    }
+    .btn-Springfield{
+        background-color: #2ca02c;
+    }
+    .btn-Joplin{
+        background-color: #d62728;
+    }
+    .btn-Fayetteville{
+        background-color: #9467bd;
+    }
+    .btn-Missouri{
+        background-color: #8c564b;
+    }
+    .btn-USA{
+        background-color: #e377c2;
+    }
+
+
 .legend {
     font-size: 14px;
     font-weight: bold;
